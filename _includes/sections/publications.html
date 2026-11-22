@@ -1,0 +1,142 @@
+
+<section class="section section-tint" id="publications">
+  <div class="container">
+
+    <div class="section-heading">
+      <h2>Publications</h2>
+    </div>
+
+    <!-- IEEE Journals/Transactions -->
+    <h3 class="subheading">IEEE Journals/Transactions</h3>
+
+    <div class="publication-list">
+      {% for paper in site.data.publications.journals %}
+        <article class="publication">
+
+          <div class="pub-year">{{ paper.year }}</div>
+
+          <div class="publication-content">
+            <h3>{{ paper.title }}</h3>
+
+            <p class="pub-authors">{{ paper.authors }}</p>
+
+            <p class="pub-venue">
+              <em>{{ paper.venue }}</em>
+              {% if paper.location %}, {{ paper.location }}{% endif %}
+            </p>
+
+            <div class="publication-actions">
+
+              {% if paper.status %}
+                <span class="publication-status">{{ paper.status }}</span>
+              {% endif %}
+
+              {% if paper.bibtex %}
+                <button class="publication-action cite-button"
+                        type="button"
+                        onclick="openCitation(this)"
+                        data-bibtex="{{ paper.bibtex | escape }}">
+                  <i class="fa-solid fa-quote-left"></i> Cite
+                </button>
+              {% endif %}
+
+              {% if paper.url %}
+                <a class="publication-action"
+                   href="{{ paper.url }}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  URL
+                </a>
+              {% endif %}
+
+            </div>
+          </div>
+
+        </article>
+      {% endfor %}
+    </div>
+
+
+    <!-- IEEE Conferences -->
+    <h3 class="subheading">IEEE Conferences</h3>
+
+    <div class="publication-list">
+      {% for paper in site.data.publications.conferences %}
+        <article class="publication">
+
+          <div class="pub-year">{{ paper.year }}</div>
+
+          <div class="publication-content">
+            <h3>{{ paper.title }}</h3>
+
+            <p class="pub-authors">{{ paper.authors }}</p>
+
+            <p class="pub-venue">
+              <em>{{ paper.venue }}</em>
+              {% if paper.location %}, {{ paper.location }}{% endif %}
+            </p>
+
+            <div class="publication-actions">
+
+              {% if paper.status %}
+                <span class="publication-status">{{ paper.status }}</span>
+              {% endif %}
+
+              {% if paper.bibtex %}
+                <button class="publication-action cite-button"
+                        type="button"
+                        onclick="openCitation(this)"
+                        data-bibtex="{{ paper.bibtex | escape }}">
+                  <i class="fa-solid fa-quote-left"></i> Cite
+                </button>
+              {% endif %}
+
+              {% if paper.url %}
+                <a class="publication-action"
+                   href="{{ paper.url }}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  URL
+                </a>
+              {% endif %}
+
+            </div>
+          </div>
+
+        </article>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+
+<!-- BibTeX Citation Popup -->
+<div id="citation-modal" class="citation-modal"
+     onclick="if(event.target === this) closeCitation()">
+
+  <div class="citation-content">
+
+    <div class="citation-header">
+      <h3>BibTeX Citation</h3>
+      <button class="citation-close"
+              type="button"
+              onclick="closeCitation()">&times;</button>
+    </div>
+
+    <textarea id="citation-text" readonly></textarea>
+
+    <div class="citation-actions">
+      <button type="button" onclick="copyCitation()">
+        <i class="fa-solid fa-copy"></i> Copy BibTeX
+      </button>
+
+      <button type="button" onclick="downloadCitation()">
+        <i class="fa-solid fa-download"></i> Download .bib
+      </button>
+    </div>
+
+  </div>
+</div>

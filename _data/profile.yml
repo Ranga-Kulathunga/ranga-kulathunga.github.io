@@ -1,0 +1,19 @@
+name: "Ranga Kulathunga"
+initials: "Ranga Kulathunga"
+role: "Ph.D. Candidate | Electrical and Computer Engineering"
+institution: "Southern Illinois University Carbondale"
+location: "Carbondale, Illinois, USA"
+email: "rangamadhusanka001@gmail.com"
+linkedin: "https://www.linkedin.com/in/ranga-kulathunga/"
+github: "https://github.com/Ranga-Kulathunga"
+google_scholar: "https://scholar.google.com/citations?user=0CFrKKkAAAAJ&hl=en"
+website: "https://ranga-kulathunga.github.io"
+intro: >-
+  Ranga Kulathunga is a Ph.D. candidate in Electrical and Computer Engineering at 
+  Southern Illinois University Carbondale, where he conducts research on next-generation 
+  wireless communication systems and AI. He received his B.Sc. in Electronic and Telecommunication 
+  Engineering from the University of Moratuwa, Sri Lanka, in 2022. He previously worked as 
+  a Software Engineer at Yaala Labs and a Systems Engineer Intern at MillenniumIT ESP.
+cv_file: "/assets/files/CV.pdf"
+show_cv_button: true
+profile_image: "/assets/images/profile.jpeg"

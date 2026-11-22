@@ -1,0 +1,12 @@
+title: "Ranga Kulathunga"
+description: "Academic website of Ranga Kulathunga"
+url: "https://ranga-kulathunga.github.io"
+baseurl: ""
+markdown: kramdown
+theme: null
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

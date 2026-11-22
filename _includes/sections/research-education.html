@@ -1,0 +1,38 @@
+
+<section class="section section-tint" id="research">
+    <div class="container">
+  
+      <div class="research-education-grid">
+  
+        <!-- Left: Research Interests -->
+        <div>
+          <h2>Research Interests</h2>
+  
+          <ul class="research-list">
+            {% for item in site.data.research.interests %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+  
+        <!-- Right: Education -->
+        <div id="education">
+          <h2>Education</h2>
+  
+          {% for item in site.data.education %}
+            <div class="education-item">
+              <h3>{{ item.degree }}</h3>
+              <p><strong>{{ item.institution }}</strong></p>
+              <p class="muted">{{ item.period }}</p>
+  
+              {% if item.gpa %}
+                <p class="muted">GPA: {{ item.gpa }}</p>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  

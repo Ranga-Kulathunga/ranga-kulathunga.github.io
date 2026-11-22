@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.profile.initials }}<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>{{ content }}</main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© {{ site.time | date: '%Y' }} {{ site.data.profile.name }}. All rights reserved.</span>
+      <span>Academic website · Built with Jekyll</span>
+    </div>
+  </footer>
+
+  <script>
+    function openCitation(button) {
+      document.getElementById("citation-text").value =
+        button.dataset.bibtex;
+    
+      document.getElementById("citation-modal").style.display = "flex";
+    }
+    
+    function closeCitation() {
+      document.getElementById("citation-modal").style.display = "none";
+    }
+    
+    async function copyCitation() {
+      const text = document.getElementById("citation-text").value;
+    
+      try {
+        await navigator.clipboard.writeText(text);
+        alert("BibTeX copied successfully!");
+      } catch (error) {
+        const textarea = document.getElementById("citation-text");
+        textarea.select();
+        document.execCommand("copy");
+        alert("BibTeX copied!");
+      }
+    }
+    
+    function downloadCitation() {
+      const text = document.getElementById("citation-text").value;
+      const blob = new Blob([text], { type: "application/x-bibtex" });
+      const url = URL.createObjectURL(blob);
+    
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "publication.bib";
+      link.click();
+    
+      URL.revokeObjectURL(url);
+    }
+    </script>
+  
+</body>
+</html>

@@ -1,0 +1,186 @@
+journals:
+  - authors: "R. Kulathunga, D. Galappaththige, G. A. Aruma Baduge, and C. Tellambura"
+    title: "Set Transformer-Based Beamforming Design for Cell-Free Integrated Sensing and Communication"
+    venue: "IEEE Transactions on Communications"
+    year: 2026
+    status: "Under Review"
+
+  - authors: "R. Kulathunga, A. Jayasinghe, and G. A. Aruma Baduge"
+    title: "Federated Set-Transformers for Beamformer Optimization in Cell-Free Massive MIMO ISAC"
+    venue: "IEEE Transactions on Communications"
+    year: 2026
+    status: "Under Review"
+
+  - authors: "R. Kulathunga and G. A. Aruma Baduge"
+    title: "Attention-Based Permutation-Invariant Learning of Beamformers for Massive MIMO ISAC Systems"
+    venue: "IEEE Transactions on Communications"
+    year: 2026
+    status: "Under Review"
+
+  - authors: "D. Galappaththige, C. Tellambura, R. Kulathunga, and G. A. Aruma Baduge"
+    title: "Reconfigurable Intelligent Surfaces for Cognitive Radio Networks: Design, Optimization, and Emerging Trends"
+    venue: "Proceedings of the IEEE"
+    year: 2026
+    status: "Under Review"
+
+  - authors: "J. K. Dassanayake, R. Kulathunga, G. A. A. Baduge, and M. Vaezi"
+    title: "Unsupervised Learning-Based ISAC Waveforms"
+    venue: "IEEE Wireless Communications Letters"
+    year: 2025
+    url: "https://ieeexplore.ieee.org/document/10965787"
+    bibtex: |
+      @ARTICLE{10965787,
+        author={Dassanayake, Janith Kavindu and Kulathunga, Ranga and Baduge, Gayan Amarasuriya Aruma and Vaezi, Mojtaba},
+        journal={IEEE Wireless Communications Letters}, 
+        title={Unsupervised Learning-Based ISAC Waveforms}, 
+        year={2025},
+        volume={14},
+        number={9},
+        pages={2663-2667},
+        keywords={Integrated sensing and communication;Optimization;Symbols;Correlation;Computational modeling;Artificial neural networks;Radar;Vectors;Real-time systems;Linear antenna arrays;Unsupervised learning;ISAC;waveform Design},
+        doi={10.1109/LWC.2025.3560907}}
+
+
+conferences:
+  - authors: "R. Kulathunga, G. Amarasuriya, A. Keshavarzchafjiri, and M. Vaezi"
+    title: "Trans-ISAC: Unsupervised Transformer-Based Waveform Design for Massive MIMO ISAC"
+    venue: "IEEE International Conference on Communications (ICC)"
+    location: "Washington, DC, USA"
+    year: 2027
+    status: "Under Review"
+
+  - authors: "R. Kulathunga and G. Amarasuriya"
+    title: "Conditional Diffusion Model-Based ISAC Beamforming"
+    venue: "IEEE International Conference on Communications (ICC)"
+    location: "Washington, DC, USA"
+    year: 2027
+    status: "Under Review"
+
+  - authors: "R. Kulathunga, M. A. Jayasinghe, and G. Amarasuriya"
+    title: "Federated Set-Transformers for CFmMIMO ISAC Beamforming"
+    venue: "IEEE International Conference on Communications (ICC)"
+    location: "Washington, DC, USA"
+    year: 2027
+    status: "Under Review"
+
+  - authors: "R. Kulathunga and G. Amarasuriya"
+    title: "Attention-based Permutation-Invariant ISAC Beamformer Learning"
+    venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    location: "Toronto, Canada"
+    year: 2027,
+    status: "Under Review"
+
+  - authors: "R. Kulathunga, D. Galappaththige, G. A. Aruma Baduge, and C. Tellambura"
+    title: "Set Transformer-Based Beamforming for CF ISAC"
+    venue: "IEEE Conference on Integrated Sensing and Communication (ISAC)"
+    location: "Lisbon, Portugal"
+    year: 2026
+    status: "Accepted"
+
+  - authors: "J. K. Dassanayake, R. Kulathunga, and G. Amarasuriya"
+    title: "Repeater-Aided Massive MIMO ISAC Systems"
+    venue: "IEEE 104th Vehicular Technology Conference (VTC)"
+    location: "Boston, MA, USA"
+    year: 2026
+    url: "https://ieeexplore.ieee.org/document/11758373"
+    bibtex: |
+      @INPROCEEDINGS{11758373,
+        author={Dassanayake, Janith Kavindu and Kulathunga, Ranga and Baduge, Gayan Amarasuriya Aruma},
+        booktitle={2026 IEEE 104th Vehicular Technology Conference (VTC2026-Fall)}, 
+        title={Repeater-Aided Massive MIMO ISAC Systems}, 
+        year={2026},
+        volume={},
+        number={},
+        pages={1-6},
+        keywords={Equations;Repeaters;Tagging;Modeling;Optimization;Integrated sensing and communication;Signal to noise ratio;Printing;Arrays;Gain},
+        doi={10.1109/VTC2026-Fall68024.2026.11758373}}
+
+  - authors: "J. K. Dassanayake, R. Kulathunga, and G. Amarasuriya"
+    title: "Beamformer Designs for Swarm of Repeater-Aided Massive MIMO ISAC"
+    venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    location: "Barcelona, Spain"
+    year: 2026
+    url: "https://ieeexplore.ieee.org/document/11463270"
+    bibtex: |
+      @INPROCEEDINGS{11463270,
+        author={Dassanayake, Janith Kavindu and Kulathunga, Ranga and Aruma Baduge, Gayan Amarasuriya},
+        booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+        title={Beamformer Designs for Swarm of Repeater-Aided Massive MIMO ISAC}, 
+        year={2026},
+        volume={},
+        number={},
+        pages={22332-22336},
+        keywords={Antennas;Planar arrays;Receiving antennas;Antenna arrays;Antennas and propagation;Thermal noise;Communication systems;Integrated sensing and communication;MIMO;Massive MIMO;Repeaters;massive MIMO;ISAC},
+        doi={10.1109/ICASSP55912.2026.11463270}}
+
+  - authors: "R. Kulathunga, D. Gunasinghe, and G. A. Aruma Baduge"
+    title: "IRS-Aided Cell-Free Massive MIMO Systems with Underlay Spectrum Sharing"
+    venue: "IEEE Global Communications Conference (GLOBECOM)"
+    location: "Taipei, Taiwan"
+    year: 2025
+    url: "https://ieeexplore.ieee.org/abstract/document/11432338"
+    bibtex: |
+      @INPROCEEDINGS{11432338,
+        author={Kulathunga, Ranga and Gunasinghe, Dulaj H and Amarasuriya, Gayan},
+        booktitle={GLOBECOM 2025 - 2025 IEEE Global Communications Conference}, 
+        title={IRS-Aided Cell-Free Massive MIMO Systems with Underlay Spectrum Sharing}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={1346-1351},
+        keywords={Uncertainty;Monte Carlo methods;System performance;Interference;Mean square error methods;Massive MIMO;Performance gain;Main-secondary;Numerical models;Optimization},
+        doi={10.1109/GLOBECOM59602.2025.11432338}}
+
+  - authors: "R. Kulathunga, J. K. Dassanayake, and G. Amarasuriya"
+    title: "Cell-Free Massive MIMO-Aided ISAC"
+    venue: "IEEE International Conference on Communications (ICC)"
+    location: "Montreal, QC, Canada"
+    year: 2025
+    url: "https://ieeexplore.ieee.org/document/11160955"
+    bibtex: |
+      @INPROCEEDINGS{11160955,
+        author={Kulathunga, Ranga and Dassanayake, Janith Kavindu and Amarasuriya, Gayan},
+        booktitle={ICC 2025 - IEEE International Conference on Communications}, 
+        title={Cell-Free Massive MIMO-Aided ISAC}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={3255-3260},
+        keywords={Fading channels;Rician channels;Pattern classification;Massive MIMO;Minimax techniques;Integrated sensing and communication;Multiple signal classification;Performance analysis;Clutter;Optimization},
+        doi={10.1109/ICC52391.2025.11160955}}
+
+  - authors: "R. Kulathunga, J. K. Dassanayake, and G. Amarasuriya"
+    title: "IRS-Aided Massive MIMO ISAC Systems"
+    venue: "IEEE International Conference on Communications (ICC)"
+    location: "Montreal, QC, Canada"
+    year: 2025
+    url: "https://ieeexplore.ieee.org/document/11161470"
+    bibtex: |
+      @INPROCEEDINGS{11161470,
+        author={Kulathunga, Ranga and Dassanayake, Janith Kavindu and Amarasuriya, Gayan},
+        booktitle={ICC 2025 - IEEE International Conference on Communications}, 
+        title={IRS-Aided Massive MIMO ISAC Systems}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={4044-4049},
+        keywords={Rician channels;Pattern classification;Channel estimation;Massive MIMO;Mean square error methods;Integrated sensing and communication;Performance metrics;Multiple signal classification;Classification algorithms;Uplink},
+        doi={10.1109/ICC52391.2025.11161470}}
+
+  - authors: "R. Kulathunga, O. De Silva, D. Abeywickrama, T. Vithanage, and D. Dias"
+    title: "SimuSIL: A Software-in-the-Loop Simulator for Cooperative Driving in Intelligent Transportation Systems"
+    venue: "IEEE Moratuwa Engineering Research Conference (MERCon)"
+    location: "Moratuwa, Sri Lanka"
+    year: 2024
+    url: "https://ieeexplore.ieee.org/document/10688793"
+    bibtex: |
+      @INPROCEEDINGS{10688793,
+        author={Kulathunga, Ranga and De Silva, Osanda and Abeywickrama, Dilshani and Vithanage, Tharindu and Dias, Dileeka},
+        booktitle={2024 Moratuwa Engineering Research Conference (MERCon)}, 
+        title={SimuSIL: A Software-in-the-Loop Simulator for Cooperative Driving in Intelligent Transportation Systems}, 
+        year={2024},
+        volume={},
+        number={},
+        pages={61-66},
+        keywords={Connected vehicles;Biological system modeling;Vehicular ad hoc networks;Transportation;Real-time systems;Software;Fuels;Vehicle dynamics;Vehicle-to-everything;Testing;vehicle-to-everything (V2X);cooperative driving;intelligent transportation systems (ITS)},
+        doi={10.1109/MERCon63886.2024.10688793}}

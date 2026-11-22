@@ -1,0 +1,11 @@
+<section class="section section-tint" id="service">
+  <div class="container narrow">
+    <div class="section-heading"><h2>Service & Leadership</h2></div>
+    <h3 class="subheading">Reviewer</h3>
+    <ul class="column-list">{% for item in site.data.service.reviewer %}<li>{{ item }}</li>{% endfor %}</ul>
+    <h3 class="subheading spaced">Memberships</h3>
+    <ul class="column-list">{% for item in site.data.service.memberships %}<li>{{ item }}</li>{% endfor %}</ul>
+    <h3 class="subheading spaced">Leadership</h3>
+    <ul class="column-list">{% for item in site.data.service.leadership %}<li><strong>{{ item.role }}:</strong> {{ item.organization }}</li>{% endfor %}</ul>
+  </div>
+</section>
